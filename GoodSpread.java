@@ -1,10 +1,12 @@
 /**
  * GoodSpread
+ * 
+ * checks no reapeting numbers in an array
  */
 public class GoodSpread {
 
     public static void main(String[] args) {
-        int [] a = {4,4,9,7,4,4,6};
+        int [] a = {4,6,9,7,4,4,6};
         System.out.println(isGoodSpread(a));
     }
 
