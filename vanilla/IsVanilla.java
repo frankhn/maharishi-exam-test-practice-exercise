@@ -17,12 +17,12 @@ public class IsVanilla {
 
         for (int i = 0; i < a.length; i++) {
 
-            while (a[i] != 0) {
+            while (a[i] > 0) {
                 // System.out.println(a[i]);
                 secondDigit = a[i] % 10;
                 // System.out.println(secondDigit);
 
-                if(a[i] != firstDigit || secondDigit != firstDigit) {
+                if(secondDigit != firstDigit) {
                     isVanilla = false;
                     break;
                 }
